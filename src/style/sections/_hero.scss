@@ -13,10 +13,11 @@
   bottom: 0;
   right: 0;
   z-index: -1;
-   background: url("/src/assets/webb.png");
+   background: url("https://www.ncrts.com/public/images/webapp-banner.jpg");
    background-position: center;
   background-size: cover; 
   background-attachment: fixed;
+
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
