@@ -16,6 +16,7 @@
    background: url("/src/assets/webb.png");
    background-position: center;
   background-size: cover; 
+  background-attachment: fixed;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
