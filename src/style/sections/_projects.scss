@@ -38,6 +38,7 @@
         font-weight: bold;
         margin-bottom: 1.8rem;
         font-size: $mid-font-size;
+        font-family: 'Averia Gruesa Libre';
 
         @include respond(phone) {
           font-size: 2rem;
@@ -46,6 +47,11 @@
 
       & p > a {
         color: $secondary-color;
+      }
+      & p{
+        font-family:  'Lancelot';
+        font-size: 20px;
+        color: black;
       }
     }
 
